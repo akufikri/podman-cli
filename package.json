@@ -1,0 +1,26 @@
+{
+  "name": "podman-cli",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "podman-cli": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "containers": "bun src/podman.ts containers",
+    "images": "bun src/podman.ts images",
+    "pods": "bun src/podman.ts pods",
+    "volumes": "bun src/podman.ts volumes",
+    "networks": "bun src/podman.ts networks",
+    "machine": "bun src/podman.ts machine"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.5.12"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^7"
+  }
+}
