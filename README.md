@@ -6,6 +6,9 @@
 ▀▀▀     ▀▀▀▀▀▀▀ ▀▀▀▀▀▀  ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀      ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀
 ```
 
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/a0f403e8-b93b-4dfb-aac6-e85f1425a633" />
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/45a61987-ad62-4807-99c0-56305185318e" />
+
 # podman-cli
 
 A TUI dashboard for managing Podman, built with [OpenTUI](https://opentui.com/) (`@opentui/core`) on top of Bun.
